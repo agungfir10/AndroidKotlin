@@ -13,7 +13,7 @@
         android:adjustViewBounds="true"
         android:contentDescription="@string/pesona_indonesia"
         android:scaleType="centerCrop"
-        android:src="@drawable/nusa_penida"
+        android:src="@drawable/slamet_mountain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

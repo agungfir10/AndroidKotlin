@@ -18,6 +18,6 @@ class ImageViewActivity : AppCompatActivity() {
 
 
     fun changeImage(view: View) {
-        ivChanged.setImageResource(R.drawable.lombok_beach)
+        ivChanged.setImageResource(R.drawable.jaya_wijaya_mountain)
     }
 }
