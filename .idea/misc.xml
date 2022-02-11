@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/agung/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.2644927536231884" />
+        <entry key="..\:/Users/agung/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_2.xml" value="0.2" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/ic_avatar_1.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/tb_pause_play.xml" value="0.1734375" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/tb_up_down.xml" value="0.1734375" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout-land/activity_landscape_variant.xml" value="0.25" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_count_down.xml" value="0.3703125" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_grid_layout.xml" value="0.25" />
@@ -11,9 +15,11 @@
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_landscape_variant.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_list_view.xml" value="0.2644927536231884" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_main.xml" value="0.3703125" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_material_bottom_sheet.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_runnable.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_viewmodel_app.xml" value="0.3703125" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_zoom_animation_view_pager.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/bottom_sheet_songs.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/fragment_first.xml" value="0.2554347826086957" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/fragment_second.xml" value="0.2554347826086957" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/fragment_third.xml" value="0.2554347826086957" />

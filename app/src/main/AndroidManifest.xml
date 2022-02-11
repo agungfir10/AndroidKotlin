@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".bottomsheet.MaterialBottomSheetActivity"
+            android:exported="true" />
+        <activity
             android:name=".viewpager.ZoomAnimationViewPagerActivity"
             android:exported="true" />
         <activity
