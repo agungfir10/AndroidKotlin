@@ -3,4 +3,6 @@
     <string name="pesona_indonesia">Pesona Indonesia</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="did_you_know">Apakah kamu tahu?</string>
+    <string name="see_another_facts">Lihat Fakta Lainnya</string>
 </resources>

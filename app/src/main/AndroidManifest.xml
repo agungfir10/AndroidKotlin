@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".factsapp.FactAppActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".radiobutton.RadioButtonActivity"
+            android:exported="true" />
+        <activity
             android:name=".bottomsheet.MaterialBottomSheetActivity"
             android:exported="true" />
         <activity

@@ -24,6 +24,8 @@ class MaterialBottomSheetActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_material_bottom_sheet)
 
+        supportActionBar?.title = "Music Player"
+
         initView()
         addSongs()
 
