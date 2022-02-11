@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".viewpager.ZoomAnimationViewPagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".landcapevariant.LandscapeVariantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".gridlayout.GridLayoutActivity"
+            android:exported="true" />
+        <activity
             android:name=".imageview.ImageViewActivity"
             android:exported="true" />
         <activity

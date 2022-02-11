@@ -18,6 +18,22 @@ class ImageViewActivity : AppCompatActivity() {
 
 
     fun changeImage(view: View) {
-        ivChanged.setImageResource(R.drawable.jaya_wijaya_mountain)
+//        if (ivChanged.drawable.constantState == ContextCompat.getDrawable(
+//                this,
+//                R.drawable.slamet_mountain
+//            )?.constantState
+//        ) {
+//            ivChanged.setImageResource(R.drawable.jaya_wijaya_mountain)
+//        } else {
+//            ivChanged.setImageResource(R.drawable.slamet_mountain)
+//        }
+
+        if (ivChanged.tag == "slamet_mountain") {
+            ivChanged.setImageResource(R.drawable.jaya_wijaya_mountain)
+            ivChanged.tag = "jaya_wijaya_mountain"
+        } else {
+            ivChanged.setImageResource(R.drawable.slamet_mountain)
+            ivChanged.tag = "slamet_mountain"
+        }
     }
 }
