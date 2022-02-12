@@ -7,6 +7,8 @@ import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.agungfir.android.bottomsheet.MaterialBottomSheetActivity
 import com.agungfir.android.countdown.CountDownActivity
+import com.agungfir.android.factsapp.FactAppActivity
+import com.agungfir.android.flashlight.FlashLightActivity
 import com.agungfir.android.gridlayout.GridLayoutActivity
 import com.agungfir.android.imageview.ImageViewActivity
 import com.agungfir.android.landcapevariant.LandscapeVariantActivity
@@ -28,7 +30,9 @@ class MainActivity : AppCompatActivity() {
         RadioButtonActivity::class.java,
         RunnableActivity::class.java,
         ViewModelAppActivity::class.java,
-        ZoomAnimationViewPagerActivity::class.java
+        ZoomAnimationViewPagerActivity::class.java,
+        FlashLightActivity::class.java,
+        FactAppActivity::class.java
     )
 
     val appsName = arrayListOf(
@@ -41,7 +45,9 @@ class MainActivity : AppCompatActivity() {
         "Radio Button",
         "Runnable",
         "View Model",
-        "View Pager"
+        "View Pager",
+        "Flash Light",
+        "Facts App"
     )
 
     private lateinit var listViewApps: ListView

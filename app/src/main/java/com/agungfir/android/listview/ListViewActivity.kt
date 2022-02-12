@@ -1,6 +1,5 @@
 package com.agungfir.android.listview
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
@@ -41,7 +40,6 @@ class ListViewActivity : AppCompatActivity() {
         listView.setOnItemClickListener { adapterView, view, i, l ->
             Toast.makeText(this@ListViewActivity, landmarkNames[i], Toast.LENGTH_SHORT)
                 .show()
-            startActivity(Intent(this, activities[i]))
         }
 
     }
