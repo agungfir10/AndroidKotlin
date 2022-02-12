@@ -14,6 +14,7 @@ import com.agungfir.android.imageview.ImageViewActivity
 import com.agungfir.android.landcapevariant.LandscapeVariantActivity
 import com.agungfir.android.listview.ListViewActivity
 import com.agungfir.android.radiobutton.RadioButtonActivity
+import com.agungfir.android.ratgames.HitTheMoleGameActivity
 import com.agungfir.android.runnable.RunnableActivity
 import com.agungfir.android.viewmodel.ViewModelAppActivity
 import com.agungfir.android.viewpager.ZoomAnimationViewPagerActivity
@@ -32,7 +33,8 @@ class MainActivity : AppCompatActivity() {
         ViewModelAppActivity::class.java,
         ZoomAnimationViewPagerActivity::class.java,
         FlashLightActivity::class.java,
-        FactAppActivity::class.java
+        FactAppActivity::class.java,
+        HitTheMoleGameActivity::class.java
     )
 
     val appsName = arrayListOf(
@@ -47,7 +49,8 @@ class MainActivity : AppCompatActivity() {
         "View Model",
         "View Pager",
         "Flash Light",
-        "Facts App"
+        "Facts App",
+        "Rat Game"
     )
 
     private lateinit var listViewApps: ListView

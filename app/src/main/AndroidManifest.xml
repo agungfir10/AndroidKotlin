@@ -18,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".ratgames.HitTheMoleGameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".independentpixel.IndependentPixelActivity"
+            android:exported="true" />
+        <activity
             android:name=".flashlight.FlashLightActivity"
             android:exported="true" />
         <activity
