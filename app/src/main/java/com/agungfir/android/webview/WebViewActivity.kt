@@ -18,7 +18,7 @@ class WebViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_web_view)
         supportActionBar?.title = "Web View"
 
-        URL = "https://1cak.com"
+        URL = "https://www.dicoding.com"
         webView = findViewById(R.id.webView)
         webView.settings.javaScriptEnabled = true
         webView.goBackOrForward(2)

@@ -18,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".qr.QRScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".qr.QRAppActivity"
+            android:exported="false" />
+        <activity
             android:name=".webview.WebViewActivity"
             android:exported="true" />
         <activity

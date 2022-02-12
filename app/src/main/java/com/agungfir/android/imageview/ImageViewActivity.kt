@@ -14,6 +14,7 @@ class ImageViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image_view)
         ivChanged = findViewById(R.id.ivChanged)
+        supportActionBar?.title = "Image View"
     }
 
 

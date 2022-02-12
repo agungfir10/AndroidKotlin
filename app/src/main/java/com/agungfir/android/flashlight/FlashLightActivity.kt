@@ -23,6 +23,7 @@ class FlashLightActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flash_light)
+        supportActionBar?.title = "Flash Light"
 
         initView()
 

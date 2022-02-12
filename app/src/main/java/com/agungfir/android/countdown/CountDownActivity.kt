@@ -11,6 +11,7 @@ class CountDownActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_count_down)
+        supportActionBar?.title = "Count Down"
 
         tvCount = findViewById(R.id.tvCount)
 

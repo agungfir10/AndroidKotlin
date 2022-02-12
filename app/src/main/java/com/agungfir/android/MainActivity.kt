@@ -13,6 +13,8 @@ import com.agungfir.android.gridlayout.GridLayoutActivity
 import com.agungfir.android.imageview.ImageViewActivity
 import com.agungfir.android.landcapevariant.LandscapeVariantActivity
 import com.agungfir.android.listview.ListViewActivity
+import com.agungfir.android.qr.QRAppActivity
+import com.agungfir.android.qr.QRScannerActivity
 import com.agungfir.android.radiobutton.RadioButtonActivity
 import com.agungfir.android.ratgames.HitTheMoleGameActivity
 import com.agungfir.android.runnable.RunnableActivity
@@ -36,7 +38,9 @@ class MainActivity : AppCompatActivity() {
         FlashLightActivity::class.java,
         FactAppActivity::class.java,
         HitTheMoleGameActivity::class.java,
-        WebViewActivity::class.java
+        WebViewActivity::class.java,
+        QRAppActivity::class.java,
+        QRScannerActivity::class.java
     )
 
     val appsName = arrayListOf(
@@ -53,7 +57,9 @@ class MainActivity : AppCompatActivity() {
         "Flash Light",
         "Facts App",
         "Rat Game",
-        "Web View"
+        "Web View",
+        "QR Generate",
+        "QR Scanner"
     )
 
     private lateinit var listViewApps: ListView
