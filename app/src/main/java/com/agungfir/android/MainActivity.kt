@@ -18,6 +18,7 @@ import com.agungfir.android.ratgames.HitTheMoleGameActivity
 import com.agungfir.android.runnable.RunnableActivity
 import com.agungfir.android.viewmodel.ViewModelAppActivity
 import com.agungfir.android.viewpager.ZoomAnimationViewPagerActivity
+import com.agungfir.android.webview.WebViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,7 +35,8 @@ class MainActivity : AppCompatActivity() {
         ZoomAnimationViewPagerActivity::class.java,
         FlashLightActivity::class.java,
         FactAppActivity::class.java,
-        HitTheMoleGameActivity::class.java
+        HitTheMoleGameActivity::class.java,
+        WebViewActivity::class.java
     )
 
     val appsName = arrayListOf(
@@ -50,7 +52,8 @@ class MainActivity : AppCompatActivity() {
         "View Pager",
         "Flash Light",
         "Facts App",
-        "Rat Game"
+        "Rat Game",
+        "Web View"
     )
 
     private lateinit var listViewApps: ListView
