@@ -33,7 +33,7 @@ class QRAppActivity : AppCompatActivity() {
                         200,
                         200
                     )
-                val encode: BarcodeEncoder = BarcodeEncoder()
+                val encode = BarcodeEncoder()
                 val bitmap: Bitmap = encode.createBitmap(bitMatrix)
                 ivQuickResponse.setImageBitmap(bitmap)
             } catch (e: WriterException) {

@@ -18,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".listview.DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".qr.QRScannerActivity"
             android:exported="false" />
         <activity

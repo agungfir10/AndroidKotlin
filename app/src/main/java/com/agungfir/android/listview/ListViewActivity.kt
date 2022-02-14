@@ -1,5 +1,7 @@
 package com.agungfir.android.listview
 
+import android.content.Intent
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
@@ -33,6 +35,11 @@ class ListViewActivity : AppCompatActivity() {
             "Eiffel",
             "London Bridge"
         )
+        val slamet =
+            BitmapFactory.decodeResource(
+                applicationContext.resources,
+                R.drawable.ic_avatar_1
+            )
 
         val arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, landmarkNames)
         listView.adapter = arrayAdapter
@@ -40,6 +47,12 @@ class ListViewActivity : AppCompatActivity() {
         listView.setOnItemClickListener { adapterView, view, i, l ->
             Toast.makeText(this@ListViewActivity, landmarkNames[i], Toast.LENGTH_SHORT)
                 .show()
+            val intent = Intent(this, DetailActivity::class.java)
+            intent.putExtra("IMAGE", slamet)
+            intent.putExtra("LANDMARK", landmarkNames[i])
+
+            startActivity(intent)
+
         }
 
     }
