@@ -18,6 +18,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".browser.CustomTabBrowserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.MyViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".layoutinflater.LayoutInflaterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".videoview.VideoViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".browser.WebBrowserActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
             android:name=".listview.DetailActivity"
             android:exported="false" />
         <activity
