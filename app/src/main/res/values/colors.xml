@@ -10,6 +10,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FBE114</color>
     <color name="teal">#4BEED1</color>
+    <color name="green">#399E47</color>
     <color name="blueSky">#13D3FB</color>
     <color name="red">#FB1467</color>
     <color name="orange">#F5815C</color>
@@ -19,4 +20,5 @@
     <color name="lightGray">#B1B1B1</color>
     <color name="lightGray500">#8C8C8C</color>
     <color name="grayTag">#4D000000</color>
+    <color name="divider">#DDD</color>
 </resources>

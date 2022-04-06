@@ -18,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".stepper.StepperActivity"
+            android:exported="true" />
+        <activity
             android:name=".browser.CustomTabBrowserActivity"
             android:exported="true" />
         <activity

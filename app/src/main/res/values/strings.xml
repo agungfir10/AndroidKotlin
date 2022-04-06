@@ -5,4 +5,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="did_you_know">Apakah kamu tahu?</string>
     <string name="see_another_facts">Lihat Fakta Lainnya</string>
+
+    <string name="some_text"><![CDATA[Create stickers for <b>Gboard</b>...]]></string>
+
+    <string-array name="steps">
+        <item><![CDATA[Login ke aplikasi mobile banking Anda]]></item>
+        <item><![CDATA[pilih <b>TRANSFER > PERMATA BANK</b> atau masukkan kode bank 013.]]></item>
+        <item><![CDATA[Masukkan <b>kode perusahaan untuk Gojek: 898</b> dan nomor HP-mu yang terdaftar pada aplikasi Gojek <b>(contoh: 8980812 XXXXXX)<b/>.]]></item>
+        <item><![CDATA[Masukkan jumlah GoPay yang ingin diisi.]]></item>
+        <item><![CDATA[Ikuti petunjuk selanjutnya untuk menyelesaikan proses pengisian GoPay]]></item>
+    </string-array>
 </resources>
