@@ -9,14 +9,20 @@
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/bg_circle.xml" value="0.27" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/ic_avatar_1.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/ic_pause_circle_outline.xml" value="0.27" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/lemon_drink.xml" value="0.1425" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/lemon_restart.xml" value="0.1425" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/lemon_squeeze.xml" value="0.1425" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/lemon_tree.xml" value="0.1425" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/rb_pers.xml" value="0.19212962962962962" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/tb_pause_play.xml" value="0.1734375" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/tb_up_down.xml" value="0.1734375" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/drawable/txt_rb.xml" value="0.19212962962962962" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout-land/activity_landscape_variant.xml" value="0.25" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_birthday_card.xml" value="0.33958333333333335" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_count_down.xml" value="0.3703125" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_custom_tab_browser.xml" value="0.25999158603281447" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_detail.xml" value="0.1393758016246259" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_dice_roller.xml" value="0.33958333333333335" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_fact_app.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_flash_light.xml" value="0.17453703703703705" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_grid_layout.xml" value="0.25" />
@@ -24,6 +30,7 @@
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_independent_pixel.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_landscape_variant.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_layout_inflater.xml" value="0.3039760581445062" />
+        <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_lemonade.xml" value="0.23425925925925925" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_list_view.xml" value="0.2644927536231884" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/agung/Desktop/Android/Android/app/src/main/res/layout/activity_material_bottom_sheet.xml" value="0.15729166666666666" />

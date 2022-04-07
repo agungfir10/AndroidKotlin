@@ -18,6 +18,7 @@ import com.agungfir.android.qr.QRScannerActivity
 import com.agungfir.android.radiobutton.RadioButtonActivity
 import com.agungfir.android.ratgames.HitTheMoleGameActivity
 import com.agungfir.android.runnable.RunnableActivity
+import com.agungfir.android.stepper.StepperActivity
 import com.agungfir.android.viewmodel.ViewModelAppActivity
 import com.agungfir.android.viewpager.ZoomAnimationViewPagerActivity
 import com.agungfir.android.webview.WebViewActivity
@@ -40,7 +41,9 @@ class MainActivity : AppCompatActivity() {
         HitTheMoleGameActivity::class.java,
         WebViewActivity::class.java,
         QRAppActivity::class.java,
-        QRScannerActivity::class.java
+        QRScannerActivity::class.java,
+        StepperActivity::class.java
+
     )
 
     val appsName = arrayListOf(
@@ -59,7 +62,8 @@ class MainActivity : AppCompatActivity() {
         "Rat Game",
         "Web View",
         "QR Generate",
-        "QR Scanner"
+        "QR Scanner",
+        "Stepper"
     )
 
     private lateinit var listViewApps: ListView

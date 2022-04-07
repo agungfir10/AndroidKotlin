@@ -14,8 +14,13 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="MyTheme">
+    <style name="MyTheme" parent="Theme.MaterialComponents.DayNight">
         <item name="android:textViewStyle">@style/MyThemeTextView</item>
+    </style>
+
+    <style name="Theme.Lemonade" parent="Theme.Android">
+        <item name="colorPrimary">@color/yellow_500</item>
+        <item name="colorPrimaryVariant">@color/yellow_700</item>\
     </style>
 
     <style name="MyThemeTextView">

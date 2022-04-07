@@ -18,6 +18,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".developer.LemonadeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Lemonade" />
+        <activity
+            android:name=".developer.DiceRollerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".developer.BirthdayCardActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
             android:name=".stepper.StepperActivity"
             android:exported="true" />
         <activity

@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.text.HtmlCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.agungfir.android.R
 
@@ -18,7 +19,8 @@ class StepAdapter(val context: Context) : RecyclerView.Adapter<StepAdapter.ViewH
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(step: String) {
-            val spanned: Spanned = Html.fromHtml(step)
+//            val spanned: Spanned = Html.fromHtml(step)
+            val spanned: Spanned = HtmlCompat.fromHtml(step, HtmlCompat.FROM_HTML_MODE_LEGACY)
             itemView.findViewById<TextView>(R.id.tv_step).text = spanned
         }
 

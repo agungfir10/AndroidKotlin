@@ -7,6 +7,8 @@
     <string name="see_another_facts">Lihat Fakta Lainnya</string>
 
     <string name="some_text"><![CDATA[Create stickers for <b>Gboard</b>...]]></string>
+    <string name="happy_birthday_text">Happy Birthday, Sam.</string>
+    <string name="signature_text">From Emma</string>
 
     <string-array name="steps">
         <item><![CDATA[Login ke aplikasi mobile banking Anda]]></item>
@@ -15,4 +17,10 @@
         <item><![CDATA[Masukkan jumlah GoPay yang ingin diisi.]]></item>
         <item><![CDATA[Ikuti petunjuk selanjutnya untuk menyelesaikan proses pengisian GoPay]]></item>
     </string-array>
+
+    <string name="lemon_select">Click to select a lemon!</string>
+    <string name="lemon_squeeze">Click to juice the lemon!</string>
+    <string name="lemon_drink">Click to drink your lemonade!</string>
+    <string name="lemon_empty_glass">Click to start again!</string>
+    <string name="squeeze_count">Squeeze count: %1$d, keep squeezing!</string>
 </resources>
